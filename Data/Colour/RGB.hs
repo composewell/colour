@@ -22,7 +22,7 @@ THE SOFTWARE.
 -}
 module Data.Colour.RGB where
 
-import Data.List
+import Data.List hiding (minimum, maximum)
 import Data.Colour.Matrix
 import Data.Colour.CIE.Chromaticity
 import Control.Applicative

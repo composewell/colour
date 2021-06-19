@@ -37,7 +37,7 @@ module Data.Colour.CIE
  )
 where
 
-import Data.List
+import Data.List hiding (sum)
 import Data.Colour
 import Data.Colour.RGB
 import Data.Colour.SRGB.Linear

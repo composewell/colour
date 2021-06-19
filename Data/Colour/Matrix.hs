@@ -22,7 +22,7 @@ THE SOFTWARE.
 -}
 module Data.Colour.Matrix where
 
-import Data.List
+import Data.List hiding (sum)
 
 default (Rational)
 
